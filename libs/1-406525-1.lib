@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1-406525-1
+#
+DEF 1-406525-1 J 0 40 Y Y 1 L N
+F0 "J" -190 451 50 H V L BNN
+F1 "1-406525-1" -210 -591 50 H V L BNN
+F2 "TE_1-406525-1" 0 0 50 H I L BNN
+F3 "1.02 mm[.04 in]" 0 0 50 H I L BNN
+F4 "8" 0 0 50 H I L BNN
+F5 "https://www.te.com/usa-en/product-1-406525-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F6 "1-406525-1" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 400 -200 -500 N
+P 2 0 0 10 -200 -500 200 -500 N
+P 2 0 0 10 200 -500 200 400 N
+P 2 0 0 10 200 400 -200 400 N
+X 1 1 400 300 200 L 40 40 0 0 P 
+X 2 2 400 200 200 L 40 40 0 0 P 
+X 3 3 400 100 200 L 40 40 0 0 P 
+X 4 4 400 0 200 L 40 40 0 0 P 
+X 5 5 400 -100 200 L 40 40 0 0 P 
+X 6 6 400 -200 200 L 40 40 0 0 P 
+X 7 7 400 -300 200 L 40 40 0 0 P 
+X 8 8 400 -400 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
