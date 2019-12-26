@@ -380,16 +380,14 @@ $EndComp
 $Comp
 L Switch:SW_Push SW8
 U 1 1 5E0A6255
-P 7800 2600
-F 0 "SW8" V 7754 2748 50  0000 L CNN
-F 1 "SW" V 7845 2748 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7800 2800 50  0001 C CNN
-F 3 "~" H 7800 2800 50  0001 C CNN
-	1    7800 2600
+P 7800 2550
+F 0 "SW8" V 7754 2698 50  0000 L CNN
+F 1 "SW" V 7845 2698 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7800 2750 50  0001 C CNN
+F 3 "~" H 7800 2750 50  0001 C CNN
+	1    7800 2550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7800 3100 7800 2800
 Connection ~ 7800 3100
 Wire Wire Line
 	7300 2750 7300 3200
@@ -425,20 +423,13 @@ Wire Wire Line
 Wire Wire Line
 	7300 2200 7300 2350
 Connection ~ 6800 2200
-Wire Wire Line
-	7300 2200 7800 2200
-Wire Wire Line
-	7800 2200 7800 2400
 Connection ~ 7300 2200
 Wire Wire Line
 	5800 5050 6300 5050
 Wire Wire Line
-	7800 2200 8200 2200
-Wire Wire Line
 	8200 2200 8200 5050
 Wire Wire Line
 	8200 5050 7800 5050
-Connection ~ 7800 2200
 Connection ~ 7800 5050
 $Comp
 L 928814-1:928814-1 J2
@@ -474,4 +465,15 @@ Text Label 3900 3200 0    50   ~ 0
 LINE7
 Text Label 3900 3100 0    50   ~ 0
 LINE8
+Wire Wire Line
+	7300 2200 7800 2200
+Wire Wire Line
+	7800 2350 7800 2200
+Connection ~ 7800 2200
+Wire Wire Line
+	7800 2200 8200 2200
+Wire Wire Line
+	7800 2750 7800 3100
+Text Notes 3100 4600 0    50   ~ 0
+R is set appropriate for \n24 V operation of the LEDs
 $EndSCHEMATC
