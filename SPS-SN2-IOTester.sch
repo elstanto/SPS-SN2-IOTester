@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SPS-SN2-IOTester-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -16,94 +17,46 @@ $EndDescr
 $Comp
 L Connector:RJ45 J1
 U 1 1 5E04BE73
-P 3400 3500
-F 0 "J1" H 3457 4167 50  0000 C CNN
-F 1 "RJ45" H 3457 4076 50  0000 C CNN
-F 2 "libs:TE_1-406525-1" V 3400 3525 50  0001 C CNN
-F 3 "~" V 3400 3525 50  0001 C CNN
-	1    3400 3500
+P 3100 3500
+F 0 "J1" H 3157 4167 50  0000 C CNN
+F 1 "RJ45" H 3157 4076 50  0000 C CNN
+F 2 "libs:TE_1-406525-1" V 3100 3525 50  0001 C CNN
+F 3 "~" V 3100 3525 50  0001 C CNN
+	1    3100 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 4200 7800 4400
+	4300 4750 4800 4750
 Wire Wire Line
-	7300 4200 7300 4400
+	4800 4750 5300 4750
+Connection ~ 4800 4750
 Wire Wire Line
-	6800 4200 6800 4400
+	5300 4750 5800 4750
+Connection ~ 5300 4750
+Connection ~ 5800 4750
 Wire Wire Line
-	6300 4200 6300 4400
+	6300 4750 6800 4750
+Connection ~ 6300 4750
 Wire Wire Line
-	5800 4200 5800 4400
+	6800 4750 7300 4750
+Connection ~ 6800 4750
 Wire Wire Line
-	5300 4200 5300 4400
-Wire Wire Line
-	4800 4200 4800 4400
-Wire Wire Line
-	4300 4200 4300 4400
-Wire Wire Line
-	4300 5050 4300 4700
-Wire Wire Line
-	4300 5050 4800 5050
-Wire Wire Line
-	4800 5050 4800 4700
-Wire Wire Line
-	4800 5050 5300 5050
-Wire Wire Line
-	5300 5050 5300 4700
-Connection ~ 4800 5050
-Wire Wire Line
-	5300 5050 5800 5050
-Wire Wire Line
-	5800 5050 5800 4700
-Connection ~ 5300 5050
-Wire Wire Line
-	6300 5050 6300 4700
-Connection ~ 5800 5050
-Wire Wire Line
-	6300 5050 6800 5050
-Wire Wire Line
-	6800 5050 6800 4700
-Connection ~ 6300 5050
-Wire Wire Line
-	6800 5050 7300 5050
-Wire Wire Line
-	7300 5050 7300 4700
-Connection ~ 6800 5050
-Wire Wire Line
-	7300 5050 7800 5050
-Wire Wire Line
-	7800 5050 7800 4700
-Connection ~ 7300 5050
-Wire Wire Line
-	3800 3800 4300 3800
+	7300 4750 7800 4750
+Connection ~ 7300 4750
 Wire Wire Line
 	4300 3800 4300 3900
 Wire Wire Line
 	4800 3700 4800 3900
 Wire Wire Line
-	3800 3700 4800 3700
-Wire Wire Line
-	3800 3600 5300 3600
-Wire Wire Line
 	5300 3600 5300 3900
-Wire Wire Line
-	3800 3500 5800 3500
 Wire Wire Line
 	5800 3500 5800 3900
 Wire Wire Line
-	3800 3400 6300 3400
-Wire Wire Line
 	6300 3400 6300 3900
-Wire Wire Line
-	3800 3300 6800 3300
 Wire Wire Line
 	6800 3300 6800 3900
 Wire Wire Line
-	3800 3200 7300 3200
-Wire Wire Line
 	7300 3200 7300 3900
-Wire Wire Line
-	3800 3100 7800 3100
 Wire Wire Line
 	7800 3100 7800 3900
 Wire Wire Line
@@ -215,90 +168,90 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 5E0A14F0
-P 4300 4550
-F 0 "R1" H 4230 4504 50  0000 R CNN
-F 1 "R" H 4230 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4230 4550 50  0001 C CNN
-F 3 "~" H 4300 4550 50  0001 C CNN
-	1    4300 4550
-	-1   0    0    1   
+P 4050 3800
+F 0 "R1" V 3950 3850 50  0000 R CNN
+F 1 "R" V 4050 3850 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3980 3800 50  0001 C CNN
+F 3 "~" H 4050 3800 50  0001 C CNN
+	1    4050 3800
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5E0A20FC
-P 4800 4550
-F 0 "R2" H 4730 4504 50  0000 R CNN
-F 1 "R" H 4730 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4730 4550 50  0001 C CNN
-F 3 "~" H 4800 4550 50  0001 C CNN
-	1    4800 4550
-	-1   0    0    1   
+P 4550 3700
+F 0 "R2" V 4450 3750 50  0000 R CNN
+F 1 "R" V 4550 3750 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4480 3700 50  0001 C CNN
+F 3 "~" H 4550 3700 50  0001 C CNN
+	1    4550 3700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5E0A23A3
-P 5300 4550
-F 0 "R3" H 5230 4504 50  0000 R CNN
-F 1 "R" H 5230 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5230 4550 50  0001 C CNN
-F 3 "~" H 5300 4550 50  0001 C CNN
-	1    5300 4550
-	-1   0    0    1   
+P 5050 3600
+F 0 "R3" V 4950 3650 50  0000 R CNN
+F 1 "R" V 5050 3650 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4980 3600 50  0001 C CNN
+F 3 "~" H 5050 3600 50  0001 C CNN
+	1    5050 3600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5E0A2606
-P 5800 4550
-F 0 "R4" H 5730 4504 50  0000 R CNN
-F 1 "R" H 5730 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5730 4550 50  0001 C CNN
-F 3 "~" H 5800 4550 50  0001 C CNN
-	1    5800 4550
-	-1   0    0    1   
+P 5550 3500
+F 0 "R4" V 5450 3550 50  0000 R CNN
+F 1 "R" V 5550 3550 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5480 3500 50  0001 C CNN
+F 3 "~" H 5550 3500 50  0001 C CNN
+	1    5550 3500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5E0A2963
-P 6300 4550
-F 0 "R5" H 6230 4504 50  0000 R CNN
-F 1 "R" H 6230 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6230 4550 50  0001 C CNN
-F 3 "~" H 6300 4550 50  0001 C CNN
-	1    6300 4550
-	-1   0    0    1   
+P 6050 3400
+F 0 "R5" V 5950 3450 50  0000 R CNN
+F 1 "R" V 6050 3450 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5980 3400 50  0001 C CNN
+F 3 "~" H 6050 3400 50  0001 C CNN
+	1    6050 3400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 5E0A2BC1
-P 6800 4550
-F 0 "R6" H 6730 4504 50  0000 R CNN
-F 1 "R" H 6730 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6730 4550 50  0001 C CNN
-F 3 "~" H 6800 4550 50  0001 C CNN
-	1    6800 4550
-	-1   0    0    1   
+P 6550 3300
+F 0 "R6" V 6450 3350 50  0000 R CNN
+F 1 "R" V 6550 3350 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6480 3300 50  0001 C CNN
+F 3 "~" H 6550 3300 50  0001 C CNN
+	1    6550 3300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5E0A2D6C
-P 7300 4550
-F 0 "R7" H 7230 4504 50  0000 R CNN
-F 1 "R" H 7230 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7230 4550 50  0001 C CNN
-F 3 "~" H 7300 4550 50  0001 C CNN
-	1    7300 4550
-	-1   0    0    1   
+P 7050 3200
+F 0 "R7" V 6950 3250 50  0000 R CNN
+F 1 "R" V 7050 3250 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6980 3200 50  0001 C CNN
+F 3 "~" H 7050 3200 50  0001 C CNN
+	1    7050 3200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5E0A3012
-P 7800 4550
-F 0 "R8" H 7730 4504 50  0000 R CNN
-F 1 "R" H 7730 4595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7730 4550 50  0001 C CNN
-F 3 "~" H 7800 4550 50  0001 C CNN
-	1    7800 4550
-	-1   0    0    1   
+P 7550 3100
+F 0 "R8" V 7450 3150 50  0000 R CNN
+F 1 "R" V 7550 3150 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7480 3100 50  0001 C CNN
+F 3 "~" H 7550 3100 50  0001 C CNN
+	1    7550 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW1
@@ -425,45 +378,23 @@ Wire Wire Line
 Connection ~ 6800 2200
 Connection ~ 7300 2200
 Wire Wire Line
-	5800 5050 6300 5050
-Wire Wire Line
-	8200 2200 8200 5050
-Wire Wire Line
-	8200 5050 7800 5050
-Connection ~ 7800 5050
-$Comp
-L 928814-1:928814-1 J2
-U 1 1 5E0B44BF
-P 3600 2200
-F 0 "J2" H 3542 1935 50  0000 C CNN
-F 1 "Spade Terminal" H 3800 2050 50  0000 C CNN
-F 2 "libs:TE_928814-1" H 3600 2200 50  0001 L BNN
-F 3 "928814-1" H 3600 2200 50  0001 L BNN
-F 4 "Compliant with Exemptions" H 3600 2200 50  0001 L BNN "Field4"
-F 5 "https://www.te.com/usa-en/product-928814-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3600 2200 50  0001 L BNN "Field5"
-	1    3600 2200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3800 2200 4300 2200
-Connection ~ 4300 2200
-Text Label 3900 2200 0    50   ~ 0
-COMMON
-Text Label 3900 3800 0    50   ~ 0
+	5800 4750 6300 4750
+Connection ~ 7800 4750
+Text Label 3550 3800 0    50   ~ 0
 LINE1
-Text Label 3900 3700 0    50   ~ 0
+Text Label 3550 3700 0    50   ~ 0
 LINE2
-Text Label 3900 3600 0    50   ~ 0
+Text Label 3550 3600 0    50   ~ 0
 LINE3
-Text Label 3900 3500 0    50   ~ 0
+Text Label 3550 3500 0    50   ~ 0
 LINE4
-Text Label 3900 3400 0    50   ~ 0
+Text Label 3550 3400 0    50   ~ 0
 LINE5
-Text Label 3900 3300 0    50   ~ 0
+Text Label 3550 3300 0    50   ~ 0
 LINE6
-Text Label 3900 3200 0    50   ~ 0
+Text Label 3550 3200 0    50   ~ 0
 LINE7
-Text Label 3900 3100 0    50   ~ 0
+Text Label 3550 3100 0    50   ~ 0
 LINE8
 Wire Wire Line
 	7300 2200 7800 2200
@@ -471,9 +402,82 @@ Wire Wire Line
 	7800 2350 7800 2200
 Connection ~ 7800 2200
 Wire Wire Line
-	7800 2200 8200 2200
-Wire Wire Line
 	7800 2750 7800 3100
-Text Notes 3100 4600 0    50   ~ 0
+Text Notes 3100 4250 0    50   ~ 0
 R is set appropriate for \n24 V operation of the LEDs
+$Comp
+L Connector:Barrel_Jack J2
+U 1 1 5E09330C
+P 8950 3500
+F 0 "J2" H 8720 3550 50  0000 R CNN
+F 1 "Barrel_Jack" H 8720 3459 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 9000 3460 50  0001 C CNN
+F 3 "~" H 9000 3460 50  0001 C CNN
+	1    8950 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2200 8300 3400
+Wire Wire Line
+	8300 3400 8650 3400
+Wire Wire Line
+	7800 2200 8300 2200
+Wire Wire Line
+	8650 3600 8300 3600
+Wire Wire Line
+	7800 4750 8300 4750
+Text Label 8350 3400 0    50   ~ 0
++24V
+Text Label 8350 3600 0    50   ~ 0
+GND
+Wire Wire Line
+	7700 3100 7800 3100
+Wire Wire Line
+	7200 3200 7300 3200
+Wire Wire Line
+	6700 3300 6800 3300
+Wire Wire Line
+	6200 3400 6300 3400
+Wire Wire Line
+	5700 3500 5800 3500
+Wire Wire Line
+	5200 3600 5300 3600
+Wire Wire Line
+	4700 3700 4800 3700
+Wire Wire Line
+	4200 3800 4300 3800
+Wire Wire Line
+	3500 3100 7400 3100
+Wire Wire Line
+	3500 3200 6900 3200
+Wire Wire Line
+	3500 3300 6400 3300
+Wire Wire Line
+	3500 3400 5900 3400
+Wire Wire Line
+	3500 3500 5400 3500
+Wire Wire Line
+	3500 3600 4900 3600
+Wire Wire Line
+	3500 3700 4400 3700
+Wire Wire Line
+	3500 3800 3900 3800
+Wire Wire Line
+	7800 4200 7800 4750
+Wire Wire Line
+	7300 4200 7300 4750
+Wire Wire Line
+	6800 4200 6800 4750
+Wire Wire Line
+	6300 4200 6300 4750
+Wire Wire Line
+	5800 4200 5800 4750
+Wire Wire Line
+	5300 4200 5300 4750
+Wire Wire Line
+	4800 4200 4800 4750
+Wire Wire Line
+	4300 4200 4300 4750
+Wire Wire Line
+	8300 4750 8300 3600
 $EndSCHEMATC
